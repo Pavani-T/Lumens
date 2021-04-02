@@ -36,7 +36,7 @@ public class SignInPageTest extends BaseClass{
 		cp.buttonClick();
 		sp.signIn();
 		lp.clickOnLight();
-		lop.logut();
+		//lop.logut();
 		
 	}
 	
