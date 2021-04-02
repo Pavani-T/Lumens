@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="70982" started-at="2021-04-01T09:55:42Z" finished-at="2021-04-01T09:56:53Z">
+  <suite name="Default suite" duration-ms="123421" started-at="2021-04-02T08:06:52Z" finished-at="2021-04-02T08:08:55Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="70982" started-at="2021-04-01T09:55:42Z" finished-at="2021-04-01T09:56:53Z">
-      <class name="com.flipkart.testscripts.SignInPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.flipkart.testscripts.SignInPageTest@4678c730]" name="setUp" is-config="true" duration-ms="68030" started-at="2021-04-01T15:25:42Z" finished-at="2021-04-01T15:26:50Z">
+    <test name="Default test" duration-ms="123421" started-at="2021-04-02T08:06:52Z" finished-at="2021-04-02T08:08:55Z">
+      <class name="com.lumens.testscripts.SignInPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.lumens.testscripts.SignInPageTest@4678c730]" name="setUp" is-config="true" duration-ms="64069" started-at="2021-04-02T13:36:52Z" finished-at="2021-04-02T13:37:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="signinTest()[pri:0, instance:com.flipkart.testscripts.SignInPageTest@4678c730]" name="signinTest" duration-ms="2861" started-at="2021-04-01T15:26:51Z" finished-at="2021-04-01T15:26:53Z">
+        <test-method status="PASS" signature="signinTest()[pri:0, instance:com.lumens.testscripts.SignInPageTest@4678c730]" name="signinTest" duration-ms="59296" started-at="2021-04-02T13:37:56Z" finished-at="2021-04-02T13:38:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signinTest -->
-      </class> <!-- com.flipkart.testscripts.SignInPageTest -->
+      </class> <!-- com.lumens.testscripts.SignInPageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

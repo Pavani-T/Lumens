@@ -19,12 +19,13 @@ import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
 
 public class ExtentReport implements IReporter {
+	
 	private ExtentReports extent;
 
 	public void generateReport(List<XmlSuite> xmlSuites, List<ISuite> suites,
 			String outputDirectory) {
 		extent = new ExtentReports(outputDirectory + File.separator
-				+ "Extent.html", true);
+				+ "FlipkartExtent.html", true);
 
 		for (ISuite suite : suites) {
 			Map<String, ISuiteResult> result = suite.getResults();
@@ -72,13 +73,6 @@ public class ExtentReport implements IReporter {
 		calendar.setTimeInMillis(millis);
 		return calendar.getTime();
 	}
-
-	
 	
 	
 }
-
-
-
-
-	

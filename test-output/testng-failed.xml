@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.flipkart.testscripts.LogutPageTest">
+      <class name="com.lumens.testscripts.LightingPageTest">
         <methods>
-          <include name="logoutTest"/>
+          <include name="lightPageTest"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- com.flipkart.testscripts.LogutPageTest -->
+      </class> <!-- com.lumens.testscripts.LightingPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

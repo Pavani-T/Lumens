@@ -5,11 +5,12 @@
 <listeners>
 	<listener class-name="com.ExtentReportListener.ExtentReport" />
 </listeners>
+
 	<test  name="Test">
 		<classes>
 			<class name="com.flipkart.testscripts.SignInPageTest" />
-				<class name="com.flipkart.testscripts.FlightsPageTest" />
-				<class name="com.flipkart.testscripts.ElectronicsPageTest" />
+				<!--  class name="com.flipkart.testscripts.FlightsPageTest" />-->
+				<!--  <class name="com.flipkart.testscripts.ElectronicsPageTest" /> -->
 				
 		</classes>
 	</test> <!-- Test -->
